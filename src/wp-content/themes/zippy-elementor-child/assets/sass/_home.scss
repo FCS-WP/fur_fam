@@ -1,0 +1,11 @@
+#homepage-feature-products-block {
+  .elementor-heading-title {
+    height: auto;
+    @include desktop {
+      height: 2lh;
+    }
+    @include tablet {
+      height: 2lh;
+    }
+  }
+}
