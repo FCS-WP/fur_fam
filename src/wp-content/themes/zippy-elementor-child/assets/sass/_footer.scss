@@ -1,0 +1,19 @@
+#footer-block {
+  p {
+    margin: 0px;
+  }
+  .elementor-nav-menu {
+    li {
+      a {
+        &:last-child {
+          padding-right: 0px;
+        }
+      }
+    }
+  }
+  #footer-arrow-block {
+    .elementor-icon {
+      border-radius: 30% !important;
+    }
+  }
+}

@@ -1,0 +1,28 @@
+#checkout-block {
+  font-family: var(--e-global-typography-secondary-font-family);
+  .woocommerce-info {
+    border-top-color: var(--e-global-color-4fdd291);
+    &::before {
+      color: var(--e-global-color-primary) !important;
+    }
+  }
+  .showcoupon {
+    color: var(--e-global-color-primary) !important;
+  }
+  table {
+    tr,
+    th,
+    td,
+    bdi {
+      color: var(--e-global-color-text);
+    }
+  }
+  #place_order {
+    background-color: var(--e-global-color-primary);
+    padding: 15px 20px;
+    border-radius: 20px !important;
+    &:hover {
+      color: var(--e-global-color-text);
+    }
+  }
+}

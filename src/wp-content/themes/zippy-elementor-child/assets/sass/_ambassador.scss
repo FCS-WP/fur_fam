@@ -1,0 +1,8 @@
+#sharing-code-block {
+  .private-code {
+    &:hover {
+      cursor: pointer;
+      background-color: var(--e-global-color-0ec3057);
+    }
+  }
+}
