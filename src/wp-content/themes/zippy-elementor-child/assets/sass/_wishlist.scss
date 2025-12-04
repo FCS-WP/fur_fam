@@ -1,12 +1,33 @@
 #wishlist-block {
+  font-family: var(--e-global-typography-secondary-font-family);
   a {
     color: var(--e-global-color-text);
     font-weight: 500;
   }
-  font-family: var(--e-global-typography-secondary-font-family);
-  .wishlist-title-container,
-  .yith-wcwl-share-title,
-  ul {
+  button {
+    padding: 12px 30px !important;
+  }
+  .product-action {
+    button {
+      border-radius: 20px;
+      background-color: var(--e-global-color-primary);
+      color: var(--e-global-color-accent);
+      &:hover {
+        color: var(--e-global-color-text);
+      }
+    }
+  }
+  .return-to-shop a {
+    padding: 12px 30px !important;
+    border-radius: 20px;
+    background-color: var(--e-global-color-primary);
+    color: var(--e-global-color-accent);
+    &:hover {
+      color: var(--e-global-color-text);
+    }
+  }
+  .tinv-header,
+  .social-buttons {
     display: none;
   }
   thead {
@@ -17,4 +38,22 @@
   .product-add-to-cart a {
     font-weight: 600 !important;
   }
+}
+.tinv-modal-inner {
+  font-family: var(--e-global-typography-secondary-font-family) !important;
+  button {
+    font-family: var(--e-global-typography-secondary-font-family) !important;
+    font-weight: 600 !important;
+    border: 0px;
+    border-radius: 20px !important;
+    background-color: var(--e-global-color-primary) !important;
+    color: var(--e-global-color-accent) !important;
+    &:hover {
+      color: var(--e-global-color-text) !important;
+      background-color: var(--e-global-color-primary) !important;
+    }
+  }
+}
+.icon_big_heart_check {
+  color: var(--e-global-color-primary);
 }
