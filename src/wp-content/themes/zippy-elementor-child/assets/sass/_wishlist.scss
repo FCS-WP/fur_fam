@@ -1,0 +1,20 @@
+#wishlist-block {
+  a {
+    color: var(--e-global-color-text);
+    font-weight: 500;
+  }
+  font-family: var(--e-global-typography-secondary-font-family);
+  .wishlist-title-container,
+  .yith-wcwl-share-title,
+  ul {
+    display: none;
+  }
+  thead {
+    th {
+      background: var(--e-global-color-4fdd291) !important;
+    }
+  }
+  .product-add-to-cart a {
+    font-weight: 600 !important;
+  }
+}
